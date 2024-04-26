@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "joel";
+  src: url("SourceSans3-Regular.ttf");
+}
+.Banner {
+  background-image: url(/Images/bg-masthead.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: left center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "joel", Source Sans3;
+}
+.Banner a {
+  background-color: #1d809f;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "joel", Source Sans3;
+}
+.Banner .overlay .closebtn {
+  top: -1px;
+  right: 40;
+}
+
+.head {
+  padding: 6px;
+  font-size: 48px;
+}
+
+.para1 {
+  padding-bottom: 30px;
+}
+
+.About {
+  background-color: white;
+  background-size: cover;
+  margin: 120px;
+  background-position: left center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "joel", Source Sans3;
+}
+.About a {
+  background-color: #212529;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "joel", Source Sans3;
+}
+
+.head2 {
+  padding: 8px;
+  font-size: 27px;
+}
+
+.para2 {
+  padding-bottom: 30px;
+}
+
+.services {
+  background-color: #1d809f;
+  background-size: cover;
+  margin: 0px;
+  padding: 20px;
+  font-family: "joel", Source Sans3;
+}
+.services .servicetext {
+  color: #e5b21b;
+  font-size: small;
+  display: block;
+  margin: 50px;
+  margin-bottom: 16px;
+}
+.services h3 {
+  color: white;
+  font-size: 30px;
+}
+.services .h4 {
+  font-size: larger;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-weight: 200;
+}
+.services .container {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .container2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.services .container2 .material-symbols-outlined {
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+}
+.services .flex {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 250px;
+  color: white;
+}
+.services .img {
+  background-color: white;
+  border-radius: 50px;
+  padding: 20px;
+}
+.services .ptag {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.services .p {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.services .ppp {
+  color: #e5b21b;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.Download {
+  background-image: url(/Images/bg-callout.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: left center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "joel", Source Sans3;
+}
+.Download a {
+  background-color: #1d809f;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "joel", Source Sans3;
+}
+
+.head4 {
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.spa {
+  padding-left: 20px;
+}
+
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  font-family: "joel", Source Sans3;
+}
+.Portfolio .doc1 {
+  background-image: url(/Images/portfolio-1.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.Portfolio .doc2 {
+  background-image: url(/Images/portfolio-2.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.Portfolio .doc3 {
+  background-image: url(/Images/portfolio-3.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.Portfolio .doc4 {
+  background-image: url(/Images/portfolio-4.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.Portfolio .projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Portfolio h3 {
+  margin-left: 30px;
+  padding-top: 200px;
+}
+.Portfolio h2 {
+  margin-bottom: 39px;
+}
+.Portfolio p {
+  margin-left: 30px;
+  padding-bottom: 90px;
+  font-weight: lighter;
+  font-size: small;
+}
+.Portfolio .pp {
+  color: #e5b21b;
+  margin-top: 37px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3px;
+  margin-left: 0;
+}
+
+.Uni {
+  background-color: #1d809f;
+  margin-top: 50px;
+  padding: 130px;
+  background-position: left center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "joel", Source Sans3;
+}
+
+.para4 {
+  color: white;
+  padding-bottom: 12px;
+  font-size: 24px;
+}
+
+a {
+  background-color: #212529;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 2px;
+  font-family: "joel", Source Sans3;
+}
+
+.white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  color: rgb(36, 34, 34);
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "joel", Source Sans3;
+}
+
+.map {
+  background-image: url("Images/Screenshot 2024-04-04 040713.png");
+  background-size: cover;
+  height: 80vh;
+}
+
+.Footer {
+  font-family: "joel", Source Sans3;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon {
+  color: #1d809f;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+@media (max-width: 576px) {
+  .Banner {
+    height: 44vh;
+  }
+  .Banner .overlay .closebtn {
+    top: -3;
+    right: 41;
+  }
+  .Banner .head {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .Banner .para1 {
+    font-size: 14px;
+  }
+  .Banner a {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .About {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .About .head2 {
+    font-size: 17px;
+  }
+  .About .para2 {
+    font-size: 11px;
+  }
+  .About a {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .services .container {
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+  .services .p {
+    font-size: 24px;
+  }
+  .services .ppp {
+    font-size: 12px;
+  }
+  .services .img {
+    padding: 10px;
+    height: 25px;
+  }
+  .services .container2 {
+    padding-bottom: 0px;
+    margin: 30px 0;
+  }
+  .services .container2 .material-symbols-outlined {
+    padding: 10px;
+  }
+  .services .container2 h4 {
+    font-size: 14px;
+  }
+  .services .container2 .ptag {
+    font-size: 8px;
+  }
+  .services .img {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+  }
+  .Download {
+    height: 44vh;
+  }
+  .Download .head4 {
+    font-size: 24px;
+  }
+  .Download a {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .Portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .Portfolio p {
+    margin-left: 13px;
+    padding-bottom: 32px;
+    font-size: 7px;
+  }
+  .Portfolio .pp {
+    margin-left: 10px;
+    display: flex;
+    position: absolute;
+    margin-top: -330px;
+    padding-top: -34px;
+  }
+  .Portfolio h3 {
+    font-size: 12px;
+    padding-top: 72px;
+    margin-left: 13px;
+    margin-bottom: 2px;
+  }
+  .Portfolio h2 {
+    margin-top: 22px;
+  }
+  .Portfolio .doc1 {
+    width: 163px;
+    height: 19vh;
+  }
+  .Portfolio .doc2 {
+    width: 163px;
+    height: 19vh;
+  }
+  .Portfolio .doc3 {
+    width: 163px;
+    height: 19vh;
+  }
+  .Portfolio .doc4 {
+    width: 163px;
+    height: 19vh;
+  }
+  .Uni {
+    padding: 50px;
+    margin-top: 0px;
+  }
+  .Uni .para4 {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  .Uni .white {
+    padding: 6px;
+  }
+  .Uni a {
+    padding: 5px;
+  }
+  .map {
+    height: 30vh;
+  }
+  .Footer {
+    padding: 10px 0;
+  }
+  .Footer p {
+    font-size: 12px;
+  }
+  .Footer .fa-3x {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+  .Banner {
+    height: 40vh;
+  }
+  .Banner .head {
+    font-size: 56px;
+  }
+  .Banner .para1 {
+    font-size: 22px;
+  }
+  .Banner a {
+    padding: 16px;
+    font-size: 18px;
+  }
+  .Banner .overlay .closebtn {
+    top: -1;
+    right: 39px;
+  }
+  .Download {
+    height: 40vh;
+  }
+  .Download .head4 {
+    font-size: 40px;
+  }
+  .Download a {
+    padding: 16px;
+    font-size: 18px;
+  }
+  .About .head2 {
+    font-size: 21px;
+  }
+  .About .para2 {
+    font-size: 16px;
+  }
+  .About a {
+    padding: 16px;
+    font-size: 18px;
+  }
+  .services .p {
+    font-size: 38px;
+  }
+  .services .container {
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .services .ppp {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .services .container2 {
+    margin-bottom: 0;
+  }
+  .services h4 {
+    font-size: 20px;
+  }
+  .Portfolio p {
+    padding-bottom: 110px;
+  }
+  .Portfolio .pp {
+    font-size: 26px;
+  }
+  .Portfolio h2 {
+    font-size: 30px;
+  }
+  .Portfolio .doc1 {
+    height: 22vh;
+    width: 300px;
+  }
+  .Portfolio .doc2 {
+    height: 22vh;
+    width: 300px;
+  }
+  .Portfolio .doc3 {
+    height: 22vh;
+    width: 300px;
+  }
+  .Portfolio .doc4 {
+    height: 22vh;
+    width: 300px;
+  }
+  .Uni {
+    margin-top: 7px;
+  }
+  .Uni .para4 {
+    padding-bottom: 0px;
+  }
+  .Uni .button4 {
+    padding: 16px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .Uni .white {
+    padding: 12px;
+  }
+  .Uni .button7 {
+    padding: 16px;
+  }
+  .Uni a {
+    font-size: 20px;
+  }
+  .map {
+    height: 36vh;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .Banner {
+    height: 37vh;
+  }
+  .Banner .para1 {
+    font-size: 26px;
+  }
+  .Banner .overlay .closebtn {
+    top: -57px;
+    right: 18px;
+    font-size: 100px;
+  }
+  .Banner .overlay a {
+    padding: 40px;
+    font-size: 56px;
+  }
+  .Banner a {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .About .head2 {
+    font-size: 31px;
+  }
+  .About .para2 {
+    font-size: 18px;
+  }
+  .About a {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .services {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .services .container2 {
+    padding-bottom: 0;
+  }
+  .services .ptag {
+    font-size: 19px;
+  }
+  .services h4 {
+    font-size: 20px;
+  }
+  .services .ppp {
+    font-size: 30px;
+  }
+  .Download {
+    height: 40vh;
+  }
+  .Download .head4 {
+    font-size: 50px;
+  }
+  .Download a {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .Portfolio .pp {
+    font-size: 33px;
+  }
+  .Portfolio h2 {
+    font-size: 36px;
+  }
+  .Portfolio h3 {
+    font-size: 30px;
+  }
+  .Portfolio p {
+    font-size: 16px;
+  }
+  .Portfolio .doc1 {
+    width: 428px;
+    height: 25vh;
+    background-position: right;
+  }
+  .Portfolio .doc2 {
+    width: 412px;
+    height: 25vh;
+    background-position: inherit;
+  }
+  .Portfolio .doc3 {
+    width: 426px;
+    height: 25vh;
+  }
+  .Portfolio .doc4 {
+    width: 411px;
+    height: 25vh;
+    background-position: right;
+  }
+  .Uni .para4 {
+    font-size: 32px;
+  }
+  .Uni a {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .Uni .button4 {
+    margin-top: 18px;
+  }
+  .map {
+    height: 25vh;
+  }
+}/*# sourceMappingURL=index.css.map */

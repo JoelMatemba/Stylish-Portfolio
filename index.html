@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Stylish Portfolio</title>
+
+</head>
+
+<body>
+    
+   <div class="Banner">
+
+    <style>
+       
+        .overlay {
+
+          position:absolute;
+          height: 0%;
+          width: 100%;
+          z-index: 1;
+          top: 0;
+          right: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-y: hidden;
+          transition: 0.5s;
+
+        }
+
+        .ham{
+
+            position: absolute;
+            top: 20px;
+            right: 0;
+            margin-right: 12px;
+
+        }
+        
+        .overlay-content {
+
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+          
+        }
+        
+        .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color:  #1e809e;
+          /* display: block; */
+          display: flex;
+          flex-direction: column;
+          transition: 0.3s;
+          background-color: rgba(0,0,0, 0.9);
+          width: 600px;
+          font-family: "joel", Source Sans3;
+        }
+        
+        .overlay a:hover, .overlay a:focus {
+          color: #212529;
+
+        }
+        
+        .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 55px;
+          font-size: 60px;
+          width: 0px;
+          padding: 0px;
+          
+        }
+
+        @media (max-width:576px){
+
+            .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 26px;
+          color:  #1d809f;
+          /* display: block; */
+          display: flex;
+          flex-direction: column;
+          transition: 0.3s;
+          background-color: rgba(0,0,0, 0.9);
+          width: 230px;
+        }
+
+        }
+
+ @media only screen and (min-width: 578px ) and (max-width:768px){
+
+     .overlay a {
+
+          padding: 93px;
+          text-decoration: none;
+          font-size: 36px;
+          color:  #1d809f;
+          /* display: block; */
+          display: flex;
+          flex-direction: column;
+          transition: 0.3s;
+          background-color: rgba(0,0,0, 0.9);
+          width: 600px;
+
+        }
+
+        }
+        
+        </style>
+        </head>
+        <body>
+        
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+        
+      
+        <span class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+        </script>
+
+       <h1 class="head">Stylish Portfolio</h1>
+       <p class="para1">A Free Bootstrap Theme by Start Bootstrap</p>
+       <a href="button1">Find Out More</a>
+    
+   </div>
+
+   <!-- End Banner -->
+
+
+   <!-- Start About -->
+
+   <section id="about">
+
+   <div class="About">
+
+    <h3 class="head2"> Stylish Portfolio is the perfect theme for your next project!</h3>
+    <p class="para2">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash </p>
+    <a href="button2">What We Offer</a>
+    
+   </div>
+
+   </section>
+   <!-- End About -->
+
+
+   <!-- Start Services -->
+
+   <div id="services">
+
+   <section class="services">
+    <div class="container">
+      <h2> <span class="ppp"><p>Services</p></span> <span class="p"> What We Offer</span></h2>
+        
+    </div>
+
+    <div class="container2">
+
+        <div class="flex">
+          <!-- <img src="smartphone.png" alt="" height="40px" class="img"> -->
+          <span class="material-symbols-outlined" style="color: #1e809e;">smartphone</span>
+          <h4>Responsive</h4>
+          <p class="ptag">Looks great on any screen size!</p>
+        </div>
+
+        <div class="flex">
+          <!-- <img src="pencil.png" alt="" height="40px" class="img">   -->
+          <span class="material-symbols-outlined" style="color: #1e809e;">edit</span>
+          <h4>Redesigned</h4>
+          <p class="ptag">Freshly redesigned for bootstrap 4.</p>
+          
+        </div>
+
+        <div class="flex">
+            <!-- <img src="like.png" alt="" height="40px" class="img"> -->
+            <span class="material-symbols-outlined" style="color: #1e809e;">thumb_up</span>
+            <h4>Favorited</h4>
+            <p class="ptag">Millions of users <i class="fa-solid fa-heart"></i> favorite love bootstrap!</p>
+            
+        </div>
+
+        <div class="flex">
+             <img src="mustache.png" alt="" height="25px" style="margin-bottom: -6px;" class="img"> 
+            <h4>Question</h4>
+            <p class="ptag">l mustache you a question</p>
+            
+        </div>
+
+    </div>
+    </section>
+
+</div>
+   <!-- End Services -->
+
+
+   <!-- Next Website -->
+
+   <div class="Download">
+
+    <h2 class="head4">Welcome to your <br><span class="spa">
+    next website!</span></h2>
+    <a href="button3">Download Now</a>
+   </div>
+
+   <!-- End Next Website -->
+
+
+   <!-- Portfolio -->
+
+   <section id="portfolio">
+
+   <div class="Portfolio">
+
+    <div class="pp">PORTFOLIO</div>
+    <h2 class="recent">Recent Projects</h2>
+
+    <div class="projects">
+
+ <div class="doc1">
+    <h3>Stationary</h3>
+    <p>A yellow pencil with envelopes on a clean,blue<br>backdrop!</p>
+ </div>
+
+ <div class="doc2">
+    <h3>ICE CREAM</h3>
+    <p>A dark blue background with a colored pencil,a<br>clip, and a tiny ice cream cone!</p>
+ </div>
+
+ <div class="doc3">
+    <h3>STRAWBERRIES</h3>
+    <p>Strawberries are such a tasty snack, especially with<br>a little sugar on top!</p>
+ </div>
+
+ <div class="doc4">
+    <h3>WORKSPACE</h3>
+    <p>A yellow workspace with some scissors,pencils,<br> other objects.</p>
+ </div>
+
+    </div>
+
+
+   </div>
+
+</section>
+
+   <!-- End Portfolio -->
+
+
+   <!-- Start Before Footer -->
+
+
+    <div class="Uni">
+        <p class="para4"><strong>The buttons below are impossible to resist...</strong></p>
+
+        <div class="button4">
+            <a href="button6" class="white" style="border-radius: 2px;">Click Me!</a>
+            <a href="button7" style="border-radius: 2px;">Look At Me!</a>
+
+        </div>
+    </div>
+
+    <div class="map">
+
+        
+    </div>
+
+    <!-- End Before Footer -->
+
+
+    <!-- Start Footer -->
+
+    <!-- <div class="Footer Image"></div> -->
+
+    <div class="Footer">
+
+       <footer>
+        <div class="icon">
+
+            <i class="fa-brands fa-facebook fa-3x"></i>
+            <i class="fa-brands fa-twitter fa-3x"></i>
+            <i class="fa-brands fa-github fa-3x"></i>
+        </div>
+        <p class="Copyright">Copyright Your Website 2019</p>
+
+       </footer>
+
+    </div>
+  <!-- End Footer -->
+
+    
+</body>
+
+</html>

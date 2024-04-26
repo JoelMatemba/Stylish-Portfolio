@@ -1,0 +1,1057 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+@font-face {
+  font-family: "joel";
+  src: url("SourceSans3-Regular.ttf");
+}
+
+
+// Start Banner //
+
+.Banner{
+   background-image: url(/Images/bg-masthead.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-position: left center;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   font-family: "joel", Source Sans3;
+
+   
+   a{
+    background-color: #1d809f;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "joel", Source Sans3;
+   }
+
+   .overlay{
+
+    .closebtn{
+
+      top: -1px;
+      right: 40;
+
+    }
+   }
+
+}
+
+.head{
+   padding: 6px;
+   font-size: 48px;
+
+}
+
+.para1{
+   padding-bottom: 30px;
+}
+
+// End Banner //
+
+
+// Start About //
+
+.About{
+    background-color: white;
+    background-size: cover;
+    margin: 120px;
+    background-position: left center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: "joel", Source Sans3;
+
+
+a {
+  background-color: #212529;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "joel", Source Sans3;
+
+}
+
+}
+
+.head2{
+  padding: 8px;
+  font-size: 27px;
+
+}
+
+.para2{
+  padding-bottom: 30px;
+  
+}
+
+// End About //
+
+
+// Start Services //
+
+.services{
+  background-color: #1d809f;
+  background-size: cover;
+  margin: 0px;
+  padding: 20px;
+  font-family: "joel", Source Sans3;
+
+  .servicetext{
+    color: #e5b21b;
+    font-size: small;
+    display: block;
+    margin: 50px;
+    margin-bottom: 16px;
+
+  }
+
+  h3{
+    color: white;
+    font-size: 30px;
+  }
+
+  .h4{
+    font-size: larger;
+    // width: 100%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-weight: 200;
+
+  }
+
+  .container{
+    padding-top: 0px; 
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .container2{
+   display: flex;
+   justify-content: center;
+   margin: 30px 0;
+  //  margin-bottom: 50px;
+  //  padding-bottom: 50px;
+
+   .material-symbols-outlined{
+
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+   }
+   
+  }
+
+  .flex{
+   text-align: center;
+  margin-bottom: 10px;
+   width: 250px;
+   color: white;
+  }
+
+  .img{
+    
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+  
+  }
+
+  .ptag{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  .p{
+   color: white;
+   font-size: 50px;
+   display: flex;
+   justify-content: center;
+
+  }
+
+  .ppp{
+   color: #e5b21b;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+
+  }
+}
+
+
+// End Services //
+
+
+// Start Next Website //
+
+.Download{
+  background-image: url(/Images/bg-callout.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: left center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  font-family: "joel", Source Sans3;
+  
+  a {
+  background-color: #1d809f;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "joel", Source Sans3;
+
+  }
+
+} 
+
+.head4{
+  padding-bottom: 30px;
+  font-size: 30px;
+
+}
+
+.spa{
+  padding-left: 20px;
+
+}
+
+// End Next Website //
+
+
+// Start Portfolio //
+
+.Portfolio{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  // width: 100%;
+  padding: 32px;
+  font-family: "joel", Source Sans3;
+  
+  .doc1{
+    background-image: url(/Images/portfolio-1.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+   
+  }
+
+  .doc2{
+  background-image: url(/Images/portfolio-2.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+
+  }
+
+  .doc3{
+    background-image: url(/Images/portfolio-3.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+  }
+
+  .doc4{
+    background-image: url(/Images/portfolio-4.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    
+  }
+
+  .projects{
+    // width: 800px;
+    // margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  h3{
+
+    margin-left: 30px;
+    padding-top: 200px;
+  
+  }
+
+  h2{
+    margin-bottom: 39px;
+  }
+
+  p{
+    margin-left: 30px;
+    padding-bottom: 90px;
+    font-weight: lighter;
+    font-size: small;
+  }
+
+  .pp{
+   color: #e5b21b;
+   margin-top: 37px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 3px;
+   margin-left: 0;
+  }
+
+}
+
+// End Portfolio //
+
+
+// Start Before Footer //
+
+.Uni{
+
+    background-color: #1d809f;
+    margin-top: 50px;
+    padding: 130px;
+    background-position: left center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: "joel", Source Sans3;
+
+}
+
+.para4{
+  color: white;
+  padding-bottom: 12px;
+  font-size: 24px;
+
+}
+
+a{
+
+  background-color: #212529;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 2px;
+  font-family: "joel", Source Sans3;
+ 
+}
+
+.white{
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  color: rgb(36, 34, 34);
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "joel", Source Sans3;
+}
+
+
+.map {
+  background-image: url("Images/Screenshot 2024-04-04 040713.png");
+  // padding: 200px 0;
+  background-size: cover;
+  height: 80vh;
+}
+
+// End Before Footer //
+
+
+// Start Footer //
+
+.Footer{
+ 
+  font-family: "joel", Source Sans3;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.icon{
+  color: #1d809f;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+
+}
+
+.copyright{
+  font-size: smaller;
+  font-weight: lighter;
+
+}
+ 
+//  End Footer //
+
+
+@media (max-width:576px) {
+     
+ .Banner{
+
+     height: 44vh;
+
+     .overlay{
+
+      .closebtn{
+
+        top: -3;
+        right: 41;
+
+      }
+
+     }
+
+   .head{
+
+      font-size: 24px;
+      margin-top: 10px;
+
+     }
+        
+   .para1{
+
+      font-size: 14px;
+
+      }
+
+    a{
+      
+      padding: 6px;
+      font-size: 14px;
+
+     }
+
+}
+
+.About{
+
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .head2{
+
+    font-size: 17px;
+
+  }
+
+  .para2{
+
+    font-size: 11px;
+
+  }
+
+  a{
+    padding: 6px;
+    font-size: 14px;
+
+  }
+
+ }
+
+ .services{
+
+  .container{
+    padding-bottom: 0px;
+    padding-top: 15px;
+
+  }
+
+    .p{
+      font-size: 24px;
+    }
+
+    .ppp{
+
+      font-size: 12px;
+    }
+
+    .img{
+
+      padding: 10px;
+      height: 25px;
+    }
+
+    .container2{
+      padding-bottom: 0px;
+      margin: 30px 0;
+
+      .material-symbols-outlined{
+
+        padding: 10px;
+      }
+
+      h4{
+
+        font-size: 14px;
+
+      }
+
+      .ptag{
+
+        font-size: 8px;
+
+      }
+
+    }
+
+    .img{
+    
+      background-color: white;
+      border-radius: 50px;
+      padding: 10px;
+    
+    }
+
+ }
+
+ .Download{
+
+  height: 44vh;
+
+  .head4{
+
+    font-size: 24px;
+
+  }
+
+  a{
+
+    padding: 6px;
+    font-size: 14px;
+    
+  }
+
+ }
+
+ .Portfolio{
+
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin-top: 23px;
+  margin-bottom: 40px;
+  // margin-left: 90px;
+  // margin-right: 90px;
+  overflow: hidden;
+
+  // .doc2{
+  //   width: 163px;
+  //   height: 19px;
+  // }
+
+p{
+
+  margin-left: 13px;
+  padding-bottom: 32px;
+  font-size: 7px;
+
+}
+
+.pp{
+
+  margin-left: 10px;
+  display: flex;
+  position: absolute;
+  margin-top: -330px;
+  padding-top: -34px;
+  
+
+}
+
+h3{
+
+  font-size: 12px;
+  padding-top: 72px;
+  margin-left: 13px;
+  margin-bottom: 2px;
+
+}
+
+h2{
+
+   margin-top: 22px;
+
+}
+
+.doc1{
+
+  width: 163px;
+  height: 19vh;
+
+}
+
+.doc2{
+
+  width: 163px;
+  height: 19vh;
+
+}
+
+.doc3{
+
+  width: 163px;
+  height: 19vh;
+
+}
+
+.doc4{
+
+  width: 163px;
+  height: 19vh;
+
+}
+
+ }
+
+ .Uni{
+
+  padding: 50px;
+  margin-top: 0px;
+
+  .para4{
+
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+
+  .white{
+
+    padding: 6px;
+  }
+
+  a{
+
+    padding: 5px;
+  }
+
+ }
+
+ .map{
+
+  height: 30vh;
+
+}
+
+.Footer{
+
+  padding: 10px 0;
+
+  p{
+
+    font-size: 12px;
+  }
+
+  .fa-3x{
+    font-size: 2em;
+  }
+}
+
+}
+
+
+
+@media only screen and (min-width: 578px ) and (max-width:768px){
+
+  .Banner{
+    height: 40vh;
+
+    .head{
+
+      font-size: 56px;
+    }
+
+    .para1{
+
+      font-size: 22px;
+    }
+
+    a{
+
+      padding: 16px;
+      font-size: 18px;
+    }
+
+    .overlay{
+
+      .closebtn{
+
+        top: -1;
+        right: 39px;
+      }
+
+    }
+
+  }
+
+  .Download{
+
+    height: 40vh;
+
+    .head4{
+
+      font-size: 40px;
+    }
+
+    a{
+
+      padding: 16px;
+      font-size: 18px;
+    }
+  }
+
+  .About{
+
+    .head2{
+
+      font-size: 21px;
+    }
+
+    .para2{
+      font-size: 16px;
+    }
+
+    a{
+
+      padding: 16px;
+      font-size: 18px;
+    }
+
+  }
+
+  .services{
+
+    .p{
+      font-size: 38px;
+    }
+
+    .container{
+
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    .ppp{
+
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .container2{
+
+     margin-bottom: 0; 
+    }
+
+    h4{
+
+      font-size: 20px;
+    }
+
+  }
+
+  .Portfolio{
+
+    p{
+      padding-bottom: 110px;
+    }
+
+    .pp{
+
+      font-size: 26px;
+    }
+
+    h2{
+
+      font-size: 30px;
+    }
+
+    .doc1{
+      height: 22vh;
+      width: 300px;
+    }
+
+    .doc2{
+      height: 22vh;
+      width: 300px;
+    }
+
+    .doc3{
+      height: 22vh;
+      width: 300px;
+    }
+    .doc4{
+      height: 22vh;
+      width: 300px;
+    }
+
+  }
+
+  .Uni{
+
+    margin-top: 7px;
+
+   .para4{
+
+      padding-bottom: 0px;
+
+    }
+   
+    .button4{
+
+      padding: 16px;
+      font-size: 18px;
+      margin-top: 15px;
+    }
+
+    .white{
+
+      padding: 12px;
+    }
+
+    .button7{
+
+      padding: 16px;
+    }
+
+    a{
+      font-size: 20px;
+
+    }
+
+  }
+
+  .map{
+    height: 36vh;
+  }
+
+}
+
+@media only screen and (min-width: 993px ) and (max-width:1024px) {
+
+
+    .Banner{
+      height: 37vh;
+
+      .para1{
+
+        font-size: 26px;
+      }
+
+      .overlay{
+
+        .closebtn{
+    
+          top: -57px;
+          right: 18px;
+          font-size: 100px;
+        }
+
+        a{
+          padding: 40px;
+          font-size: 56px;
+        }
+      }
+
+      // .ham{
+
+      //   font-size: 40px;
+      // }
+
+      a{
+
+        padding: 15px;
+        font-size: 22px;
+      }
+
+    }
+
+    .About{
+
+      .head2{
+
+        font-size: 31px;
+      }
+
+      .para2{
+
+        font-size: 18px;
+      }
+
+      a{
+
+        padding: 15px;
+        font-size: 22px;
+      }
+
+    }
+
+    .services{
+
+      padding: 0;
+      padding-bottom: 20px;
+
+      .container2{
+
+        padding-bottom: 0;
+      }
+
+      .ptag{
+
+        font-size: 19px;
+      }
+
+      h4{
+
+        font-size: 20px;
+      }
+
+      .ppp{
+
+        font-size: 30px;
+      }
+
+    }
+
+    .Download{
+
+      height: 40vh;
+
+      .head4{
+
+        font-size: 50px;
+      }
+
+      a{
+
+        padding: 15px;
+        font-size: 22px;
+      }
+
+    }
+
+    .Portfolio{
+
+      .pp{
+
+       font-size: 33px; 
+      }
+
+      h2{
+
+        font-size: 36px;
+      }
+
+      h3{
+
+        font-size: 30px;
+      }
+
+      p{
+
+        font-size: 16px;
+      }
+
+      .doc1{
+
+        width: 428px;
+        height: 25vh;
+        background-position: right;
+      }
+
+      .doc2{
+
+        width: 412px;
+        height: 25vh;
+        background-position: inherit;
+      }
+
+      .doc3{
+
+        width: 426px;
+        height: 25vh;
+      }
+
+      .doc4{
+
+        width: 411px;
+        height: 25vh;
+        background-position: right;
+      }
+    }
+
+    .Uni{
+
+      .para4{
+
+        font-size: 32px;
+      }
+
+      a{
+
+        padding: 15px;
+        font-size: 22px;
+      
+      }
+
+      .button4{
+
+        margin-top: 18px;
+      }
+
+    }
+
+    .map{
+
+      height: 25vh;
+    }
+}
