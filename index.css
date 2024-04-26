@@ -8,7 +8,7 @@
   src: url("SourceSans3-Regular.ttf");
 }
 .Banner {
-  background-image: url(/Images/bg-masthead.jpg);
+  background-image: url(Images/bg-masthead.jpg);
   height: 100vh;
   background-size: cover;
   background-position: left center;
@@ -141,7 +141,7 @@
 }
 
 .Download {
-  background-image: url(/Images/bg-callout.jpg);
+  background-image: url(Images/bg-callout.jpg);
   height: 80vh;
   background-size: cover;
   background-position: left center;
@@ -178,7 +178,7 @@
   font-family: "joel", Source Sans3;
 }
 .Portfolio .doc1 {
-  background-image: url(/Images/portfolio-1.jpg);
+  background-image: url(Images/portfolio-1.jpg);
   background-size: cover;
   width: 500px;
   height: 50vh;
@@ -189,7 +189,7 @@
   color: white;
 }
 .Portfolio .doc2 {
-  background-image: url(/Images/portfolio-2.jpg);
+  background-image: url(Images/portfolio-2.jpg);
   background-size: cover;
   width: 500px;
   height: 50vh;
@@ -200,7 +200,7 @@
   color: white;
 }
 .Portfolio .doc3 {
-  background-image: url(/Images/portfolio-3.jpg);
+  background-image: url(Images/portfolio-3.jpg);
   background-size: cover;
   width: 500px;
   height: 50vh;
@@ -211,7 +211,7 @@
   color: white;
 }
 .Portfolio .doc4 {
-  background-image: url(/Images/portfolio-4.jpg);
+  background-image: url(Images/portfolio-4.jpg);
   background-size: cover;
   width: 500px;
   height: 50vh;
