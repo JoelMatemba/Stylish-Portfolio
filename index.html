@@ -17,7 +17,7 @@
     
    <div class="Banner">
 
-    <style>
+    <!-- <style>
        
         .overlay {
 
@@ -142,6 +142,98 @@
         function closeNav() {
           document.getElementById("myNav").style.height = "0%";
         }
+        </script> -->
+
+        <style>
+          .overlay {
+            position: fixed;
+            height: 0;
+            width: 100%;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: rgb(000);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-y: hidden;
+            transition: height 0.5s;
+          }
+        
+          .ham {
+            position: absolute;
+            top: 20px;
+            right: 14px;
+            /* cursor: pointer; */
+          }
+        
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            transform: translateY(-50%);
+            text-align: center;
+            margin-top: 30px;
+          }
+        
+          .overlay a {
+            padding: 8px; 
+            text-decoration: none;
+            font-size: 36px;
+            color: #1e809e;
+            /* display: block; */
+            display: flex;
+            flex-direction: column;
+            transition: color 0.3s;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 600px;
+            font-family: "joel", Source Sans3;
+          }
+        
+          .overlay a:hover,
+          .overlay a:focus {
+            color: #212529;
+          }
+        
+          .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 43px;
+            font-size: 60px;
+            width: 0px;
+            padding: 0px;
+          }
+        
+          @media (max-width: 576px) {
+            .overlay a {
+              font-size: 26px;
+              width: 374px;
+            }
+          }
+        
+          @media only screen and (min-width: 578px) and (max-width: 768px) {
+            .overlay a {
+              font-size: 36px;
+            }
+          }
+        </style>
+        
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#about" onclick="closeNav()">About</a>
+            <a href="#services" onclick="closeNav()">Services</a>
+            <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+          </div>
+        </div>
+        
+        <span class="ham" style="font-size:30px;" onclick="openNav()">&#9776;</span>
+        
+        <script>
+          function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+          }
+        
+          function closeNav() {
+            document.getElementById("myNav").style.height = "0";
+          }
         </script>
 
        <h1 class="head">Stylish Portfolio</h1>
